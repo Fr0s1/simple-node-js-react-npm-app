@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label: hieudt37-jenkins-agent-permanen
+        label: 'hieudt37-jenkins-agent-permanent'
     }
     stages {
         stage('Build') { 
