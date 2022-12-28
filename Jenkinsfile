@@ -1,11 +1,9 @@
 pipeline {
-    agent {
-        label: 'hieudt37-jenkins-agent-permanent'
-    }
+    agent { node { label 'hieudt37-jenkins-agent-permanent' } }
     stages {
-        stage('Build') { 
+        stage('Build') {
             steps {
-                sh 'echo "Hello Word"' 
+                sh 'echo "Hello Word"'
             }
         }
     }
