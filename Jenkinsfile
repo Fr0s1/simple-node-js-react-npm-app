@@ -1,5 +1,5 @@
 pipeline {
-    agent { node { label: 'jenkins-ec2-plugin-agent' } }
+    agent { node { label 'jenkins-ec2-plugin-agent' } }
     stages {
         stage('Build') {
             steps {
