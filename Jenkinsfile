@@ -1,5 +1,5 @@
 pipeline {
-    agent { node { label 'hieudt37-jenkins-agent-permanent' } }
+    agent any
     stages {
         stage('Build') {
             steps {
