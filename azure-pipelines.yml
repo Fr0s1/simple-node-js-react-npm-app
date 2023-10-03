@@ -6,7 +6,7 @@
 trigger:
 - master
 
-pool: frosted_pool
+pool: frosted-pool
 
 steps:
 - task: NodeTool@0
